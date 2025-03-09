@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Connect to the Server]]>
+    </line>
+    <line>
+      <![CDATA[Connect to the DB]]>
+    </line>
+    <line>
+      <![CDATA[Disconnected from the DB]]>
+    </line>
+    <line>
+      <![CDATA[Disconnected from the Server]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-02-15T11:39:44 IST" name="Default suite" finished-at="2025-02-15T11:40:08 IST" duration-ms="23532">
+    <groups>
+    </groups>
+    <test started-at="2025-02-15T11:39:44 IST" name="Default test" finished-at="2025-02-15T11:40:08 IST" duration-ms="23532">
+      <class name="com.Maven_Project.Sample_Program">
+        <test-method is-config="true" signature="ConnectServer()[pri:0, instance:com.Maven_Project.Sample_Program@6ad82709]" started-at="2025-02-15T11:39:44 IST" name="ConnectServer" finished-at="2025-02-15T11:39:44 IST" duration-ms="27" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Connect to the Server]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ConnectServer -->
+        <test-method is-config="true" signature="ConnectDB()[pri:0, instance:com.Maven_Project.Sample_Program@6ad82709]" started-at="2025-02-15T11:39:44 IST" name="ConnectDB" finished-at="2025-02-15T11:39:44 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Connect to the DB]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ConnectDB -->
+        <test-method is-config="true" signature="OpenBrowser()[pri:0, instance:com.Maven_Project.Sample_Program@6ad82709]" started-at="2025-02-15T11:39:44 IST" name="OpenBrowser" finished-at="2025-02-15T11:39:54 IST" duration-ms="10054" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method signature="testcase()[pri:0, instance:com.Maven_Project.Sample_Program@6ad82709]" started-at="2025-02-15T11:39:54 IST" name="testcase" finished-at="2025-02-15T11:40:08 IST" duration-ms="13376" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:com.Maven_Project.Sample_Program@6ad82709]" started-at="2025-02-15T11:40:08 IST" name="CloseBrowser" finished-at="2025-02-15T11:40:08 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="DisconnectDB()[pri:0, instance:com.Maven_Project.Sample_Program@6ad82709]" started-at="2025-02-15T11:40:08 IST" name="DisconnectDB" finished-at="2025-02-15T11:40:08 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Disconnected from the DB]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- DisconnectDB -->
+        <test-method is-config="true" signature="DisconnectionServer()[pri:0, instance:com.Maven_Project.Sample_Program@6ad82709]" started-at="2025-02-15T11:40:08 IST" name="DisconnectionServer" finished-at="2025-02-15T11:40:08 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Disconnected from the Server]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- DisconnectionServer -->
+      </class> <!-- com.Maven_Project.Sample_Program -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
